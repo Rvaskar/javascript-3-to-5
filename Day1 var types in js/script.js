@@ -10,7 +10,7 @@ console.log(a);
 let b = 500;
 
 console.log(b);
-b = true;  //js is dynamic 
+b = true;  //js is dynamic
 console.log(b);
 
 // let b  = 541;   //reDeclaration not possible
@@ -37,7 +37,9 @@ console.log("javascript")
 console.log(true)
 
 
-document.writeln("javascript")  //used to give space between word 
+document.writeln("javascript")  //used to give space between word
+
+//document.write() used to show content in window
 
 document.write("javascript" + "</br>")  // we can used html in js
 // document.write("<input>")
@@ -45,5 +47,5 @@ document.write("javascript" + "</br>")  // we can used html in js
 document.write("hey")
 
 //alert
-
+//alert is function
 alert("hey")
