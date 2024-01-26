@@ -1,20 +1,40 @@
 //!TOKENS
 //!--------1) IDENTIFIER -----------
 //------------Rules:
-//i)Should not start with number but its contain numbers
-//ii)Should not contain space
-//iii)No other special character contain other than $ and _
-//iv)Do not have contain keyword/ reserve Word
+        //i)Should not start with number but its contain numbers
+        let a12 = 400  //*possible
+        // let 12a = 440   //*not possible
+
+        //ii)Should not contain space
+        // let str ing= 100 //*not Possible
+        let str_ing= 100 //* Possible
+        //iii)No other special character contain other than $ and _
+        let $ = 14  //* Possible
+        let _ = 14  //* Possible
+        //iv)Do not have contain keyword/ reserve Word
+        
 //!--------2) KEYWORDS -----------
-//!--------3) LITERS -----------
+      //their are some keyword thats are predefine in the javascript like ==> //* if , else, for, function, class, switch, new, typeof
+//!--------3) LITERALS -----------
+      //the process of assigning value to the variable is known as literals
 //!--------4) OPERATORS -----------
+      //operations  are the symbols which are use to perform task/ operations on datatypes
+      //* arithmetic, logical, ternary
 
 //*--------  //!  DATATYPES  --------
 
 //!-----------------   PRIMITIVE DATATYPE
 //PRIMITIVE DATATYPE ARE IMMUTABLE
 
+//!TYPEOF --------------------------------------------
+
 // typeof ==> is operator or keyword use to check datatype
+
+let b= 10 
+console.log(typeof b)  //*number
+console.log(typeof typeof b) //*string
+
+//*--------------------------------------------------------------
 //! number:
 
 const number1 = 100;
