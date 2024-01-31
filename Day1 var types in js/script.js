@@ -36,7 +36,8 @@ console.log(12)
 console.log("javascript")
 console.log(true)
 
-
+document.write('java')
+document.writeln('python')
 document.writeln("javascript")  //used to give space between word
 
 //document.write() used to show content in window
