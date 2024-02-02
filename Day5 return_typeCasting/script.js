@@ -64,3 +64,7 @@ console.log(isNaN("str")); // true //*here it check for for the Number(true) //N
 //!NUmber.isNaN directly check for the datatype
 console.log(Number.isNaN('str')) //? false
 
+
+// window.alert("hey")
+// alert("hry")
+console.log(this === window)

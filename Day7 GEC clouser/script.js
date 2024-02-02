@@ -29,22 +29,29 @@ var tech = 100;
 let tech2 = 2020;
 
 function another(){
+    var tech = 1010;
     var b = 1000
     console.log(b)
+    console.log(tech)
     console.log(this.tech) //here we accessing outer variable with this keyword 
 }
+console.log(window)
+console.log(this.d)
 another()
 
 
 //!     CLOSURE
 
+let v = 100;
 function outer2() {
-    let v = 100;
     let s = "js"
+    console.log(s)
     console.log("outer function")
     function inner(){
         console.log(v)  //this is called closure accessing outer function variable inside inner function
         console.log("str")
         console.log("nested function")
     }
+    inner()
 }
+outer2()
