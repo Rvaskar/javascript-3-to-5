@@ -135,7 +135,7 @@ console.log(res1) //true
 //-----------------------------------------------------------------------
 
 //!push()
-//1)  it is used to add one or more elements to the end of an array and returns the new length
+//1)it is used to add one or more elements to the end of an array and returns the new length
 //2)it will modify original array
 //3)return type of push is number
 
@@ -160,3 +160,9 @@ let res3 = skills.unshift('java','spring','sdlc')
 console.log(skills) //(7) ['java', 'spring', 'sdlc', 'js', 'node', 'react', 'python']
 
 console.log(res3) //7
+
+
+//!----------------------------------------------------------------------
+//*----------------------------------------------------------------------
+//-----------------------------------------------------------------------
+

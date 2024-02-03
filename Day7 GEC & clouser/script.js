@@ -20,7 +20,7 @@ function outer(){
 
 outer();
 var d = "js"
-console.log(d)
+console.log(d) //js
 
 
 //! WINDOW OR THIS KEYWORD
@@ -45,10 +45,10 @@ another()
 let v = 100;
 function outer2() {
     let s = "js"
-    console.log(s)
+    console.log(v)
     console.log("outer function")
     function inner(){
-        console.log(v)  //this is called closure accessing outer function variable inside inner function
+        console.log(s)  //this is called closure accessing outer function variable inside inner function
         console.log("str")
         console.log("nested function")
     }
