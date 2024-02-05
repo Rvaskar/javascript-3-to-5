@@ -133,5 +133,6 @@ for (let index = 0; index < arrayA.length; index++) {
     console.log(element )               //10,20,true,string
     console.log(element * 2)            //20,40,2,NaN
     console.log(typeof element)         //number number boolean string
-    
+    console.log(element)
+
 }
