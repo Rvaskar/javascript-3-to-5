@@ -19,6 +19,7 @@ let a = ar.pop();
 console.log(ar); //(3) [20, 30, 40]
 
 console.log(a); //10
+console.log(typeof a) //number
 
 //! SHIFT()
 
@@ -38,7 +39,7 @@ console.log(b); //*js
 
 console.log(arr); //(3) ['node', 'react', 'express']
 
-//!slice
+//!    SLICE()
 //1)use to  extract part of the array
 // 2) return new array
 //3) return type is object
@@ -61,7 +62,7 @@ console.log(a1); //(5) [22, 44, 68.9, 96, 100]
 console.log(a1.slice(-4)); //(4) [44, 68.9, 96, 100]
 console.log(a1.slice(-5, -3)); //(2) [22, 44]
 
-//!SPLICE()
+//!   SPLICE()
 //1) to modify(add,delete,change) array element with particular index(position)
 //2) non-static  method //*so we have to called with reference name(array name)
 //3) it will change/modify the actual array
@@ -70,6 +71,9 @@ console.log(a1.slice(-5, -3)); //(2) [22, 44]
 //6) if we don't want to delete element then we pass 0 for deleting position
 //7)it will take 3 or multiple element
 // syntax  //!  arrayName.splice(index, how many item you want to remove ,item1,item2...)
+
+
+//* HOW TO ITERATE THE ARRAY USING LOOP
 
 let y = [
   "str",

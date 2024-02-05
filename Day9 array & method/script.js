@@ -88,7 +88,8 @@ ar[3]() //O/P ==> arrow function //* to call function which is present in the ar
 //* IF WE PASS MULTIPLE ARGUMENT TO ARRAY THEN IT WILL ACT AS Element
 
 let b = new Array(20,100);
-console.log(b) //(2) [20, 100]
+console.log(b) //(2) [20, 100]0.
+
 b[2] = 'javascript'
 console.log(b.length) //3
 
