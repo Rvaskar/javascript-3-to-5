@@ -93,3 +93,13 @@ let str = strArray .reduce((acc,cv)=>{
   return acc < cv
 })
 console.log(str)
+
+//!Reduce right
+
+let arRight = [1,5,4,9,7,3]
+let resRight = arRight.reduceRight((acc,cv)=>{
+  console.log("Acc: ", acc )
+  console.log("cv: ", cv)
+    return acc+cv
+})
+console.log(resRight)
