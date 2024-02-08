@@ -34,6 +34,7 @@ let r12 = c.some((a)=>{
 console.log(r12)  //true
 
 //! every()
+
 //every() method iterate  each elements and check whether all elements satisfy the given condition or not. If yes then it returns true
 //its all a hof
 //it will take another function as argument (callback function) //*that callback function will take three parameter
