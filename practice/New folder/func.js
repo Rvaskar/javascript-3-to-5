@@ -46,8 +46,21 @@
 // )()
 
 
-let array = [10,2,58,45,21,2,52,1]
-let v = new Set(array)
-let array1 = [...v]
-console.log(v)
-console.log(array1.sort((a,b)=>a-b));
+// let array = [10,2,58,45,21,2,52,1]
+// // let v = new Set(array)
+// // let array1 = [...v]
+// // console.log(v)
+// // console.log(array1.sort((a,b)=>a-b));
+// let b = array.push(10)
+// console.log(array)
+
+let s = 'hey javascript 12 are you sure  21e to you12e1   can makes game'
+let b = s.split("")
+console.log(b)
+// console.log(s.split(""))
+// let d = b.forEach((e)=>{ return console.log( Number(e))})
+// console.log(d)
+let x = b.reduce((a,c)=>{
+    return a+c
+})
+console.log(x)
