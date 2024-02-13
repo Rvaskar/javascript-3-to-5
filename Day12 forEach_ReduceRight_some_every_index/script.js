@@ -18,7 +18,7 @@ console.log(resRight)
 //it will take another function as argument (callback function) //*that callback function will take three parameter
 //if any element satisfied condition it will return true otherwise false
 //it will return boolean value
-// some() method iterate not iterate all the element  in an array .It returns true if at least one element satisfies.
+// some() method  not iterate all the element  in an array .It will returns true if at least one element satisfies value end the process
 
 var c  = [30,60,90,100,200]
 
@@ -69,7 +69,7 @@ console.log(r4)  //undefined
 
 
 //! Indexof()
-//indexof() used  to find index of first occurance of element in array
+//indexof() used  to find index of first occurances of element in array
 //it will take 2 argument 
 //first one is required parameter which we want to search in array
 //second one is optional parameter from where we start our search if not provided then it will consider 0 as default starting point
