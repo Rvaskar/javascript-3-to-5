@@ -13,13 +13,14 @@ let std = {
 };
 //! using dot notation
 console.log(std.name)
+console.log(std.name)
 console.log(std.demo())
-console.log(std.address.area)
+console.log(std.address.pinCode)
 console.log(std.id)
 
 //! using brakcets notation
 console.log('-*---------------*********using bracket notation*********-------------')
 
-console.log(std["name"])
+console.log(std['name'])
 std["demo"]()
 console.log(std["address"]["area"])
