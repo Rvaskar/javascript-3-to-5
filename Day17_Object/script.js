@@ -1,3 +1,10 @@
+//!WAY TO CREATING OBJECT  
+//*1) LITERAL
+//*2) CLASS CONSTRUCTOR 
+//*3)CONSTRUCTOR FUNCTION
+//*4)OBJECT CONSTRUCTOR
+
+//! LITERAL 
 let e1 = {
     name: "sachin",
     id: 123,
@@ -6,20 +13,25 @@ let e1 = {
     },
 };
 
+//TO ADD KEY AND VALUE IN OBJECT
 e1.address={
     area:"thane",
     pin:400401,
 };
 
+
 e1["percentage"]=96;
 console.log(e1)
 
+//TO UPDATE VALUE IN OBJECT
 e1.id = 300;
 e1["name"]= "virat"
+
 
 console.log(e1.marks())
 console.log(e1)
 
+// TO DELETE KEY AND VALUE  IN OBJECT
 delete e1.marks;
 console.log(e1)
 
@@ -27,6 +39,13 @@ let c = 100
 console.log(c)
 
 //! class constructor
+//*1) class is blue print to create object
+//*2) class name is always in uppercase
+//*3) stored in script scope
+//*4) Constructor is special type of the method
+//*5)
+
+
 
 class Employee{
     constructor(name,id,designation){
