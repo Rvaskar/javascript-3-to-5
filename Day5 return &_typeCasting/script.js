@@ -3,12 +3,12 @@
 //*FUNCTION
 
 //! return statement
-//we use return statement if we want to access any value outside of the function then we pass it into return statement
+//when use return statement:  if we want to access any value outside of the function then we pass it into return statement
 
 // we can pass only one value in the return statement and //* type of the return statement is what is the type of the datatype which are we passing in return statement
 
 //if we not write return value to function then it have by default the return value it hold undefine 
-//* if we want to call or get return value before that we have to store it one variable
+//* if we want to call/get return value : for that we have to store it one variable
 
 function demo() {
   let a = 100;

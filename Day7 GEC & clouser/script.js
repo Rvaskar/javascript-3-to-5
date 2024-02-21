@@ -19,8 +19,8 @@ function outer(){
 }
 
 outer();
-var d = "js"
-console.log(d) //js
+let d1 = "js"
+console.log(d1) 
 
 
 //! WINDOW OR THIS KEYWORD

@@ -6,7 +6,7 @@ function isLeapYear(y) {
   } else return "not a leap year";
 }
 console.log(isLeapYear(year));
-//* wap to merge to arrays with using concat method
+//* wap to merge to arrays without using concat method
 let array1 = [10, 20, 30, 40, 50];
 let array2 = [20, 30, 40, 20, 4];
 let newAr = [...array1, ...array2];

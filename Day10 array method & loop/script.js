@@ -70,7 +70,7 @@ console.log(a1.slice(-5, -3)); //(2) [22, 44]
 //5) return type is object //*because it return in form of array
 //6) if we don't want to delete element then we pass 0 for deleting position
 //7)it will take 3 or multiple element
-// syntax  //!  arrayName.splice(index, how many item you want to remove ,item1,item2...)
+// syntax  //!  arrayName.splice(index, how many item you want to remove ,element to add:item1,item2...)
 
 
 //* HOW TO ITERATE THE ARRAY USING LOOP
