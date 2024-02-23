@@ -43,10 +43,11 @@ console.log(c)
 //*2) class name is always in uppercase
 //*3) stored in script scope
 //*4) Constructor is special type of the method
-//*5)
-
-
-
+//*5)inside constructor we could not able to write return keyword
+//*6) we call constructor using new keyword
+//*7)constructor used to : initialize the value for the keys
+//*8)new keyword used to invoke the constructor
+//*9) not suppose to create object inside the class
 class Employee{
     constructor(name,id,designation){
         this.name = name;
