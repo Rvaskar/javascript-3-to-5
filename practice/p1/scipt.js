@@ -1,68 +1,21 @@
-// let f = ()=>{
-//     let ob1 = {
-//         name: "ob11",
-//         age: 6,
-//         m: this
-//       };
-//       console.log(ob1);
-//       console.log(ob1.m);
-      
-//     }
-//     f()
+let b = [1,10,2,32,56,4,87,8,69,64,54,78,8,45,81,15]
 
+// let c = b.findIndex((a)=>{ if( a == 8) return a})
 
-// class Ob2 {
-//   constructor(nam, ag) {
-//     this.name = nam;
-//     this.age = ag;
-//   }
-// }
-
-// let c = new Ob2("raj", 65);
-// console.log(c);
-
-// function Ob3(nam, ag) {
-//   this.name = nam;
-//   this.age = ag;
-// }
-
-// let c1 = new Ob3(this, 6);
-// console.log(c1);
-
-
-// let x = new Object();
-// console.log(x)
-
-async function fetchData() {
-  try {
-    const response = await fetch('https://binaryjazz.us/wp-json/genrenator/v1/story/25/', {
-      method: 'GET'
-    });
-    const data = await response.json();
-    console.log(data);
-    let b = document.getElementById('div1')
-    b.innerHTML = data[5 ]
-
-    return data
-  } catch (error) {
-    console.error('Error fetching data:', error);
+function appereance(arr,b,c){
+  let d = []
+  for(let i = 0; i<arr.length; i++){
+    if(arr[i]==b){
+      d.push(i)
+    }
   }
+
+  return d[c-1]
 }
-
-fetchData();
-
-async function fetchData2(){
-  try{
-    const response = await fetch('https://binaryjazz.us/wp-json/genrenator/v1/genre/25/',{
-      method : 'GET'
-    });
-    const data = await response.json();
-    console.log(data)
-    return data
-  } catch(err){
-    console.error("Errorr fetching data:",err)
-  }
-}
+// console.log(c)
+ console.log(b)
 
 
-fetchData2()
+
+let x = appereance(b,8,2)
+console.log(x)
