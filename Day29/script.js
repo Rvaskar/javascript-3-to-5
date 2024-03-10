@@ -9,7 +9,7 @@ gp.addEventListener(
         console.log("gp  clicked" + " " + e.eventPhase);
         gp.style.background = "hotpink"
     },
-    false  //it decide how the event go capturing phase/ bubble phase == true: capture
+    true  //it decide how the event go capturing phase/ bubble phase == true: capture
 )
 p.addEventListener(
     "click",
