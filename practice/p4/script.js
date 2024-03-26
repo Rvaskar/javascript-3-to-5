@@ -1,4 +1,4 @@
-let a = [10,20,30,40,50,85,36,50,60,6,6,95,80,30,60]
+// let a = [10,20,30,40,50,85,36,50,60,6,6,95,80,30,60]
 
 // let b = new Array(10)
 // let b1 = new Array()
@@ -26,7 +26,7 @@ let a = [10,20,30,40,50,85,36,50,60,6,6,95,80,30,60]
 
 
 
-console.log(a)
+// console.log(a)
 
 // console.log(a.push(550))
 // console.log(a.unshift('a'))
@@ -60,9 +60,19 @@ console.log(a)
 // console.log(d)
 
 
-let c2 = a.fill('h',1,4)
+// let c2 = a.fill('h',1,4)
 
 
 // console.log('pass the condition in return statement')
 
-console.log(a)
+// console.log(a)
+
+
+const helo = async( )=>{
+    let data =await fetch("https://www.shoppersstack.com/shopping/products/alpha")
+    console.log(data)
+    let d = await data.json();
+    console.log(d)
+    
+}
+helo()
